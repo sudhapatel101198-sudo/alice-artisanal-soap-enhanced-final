@@ -1,25 +1,29 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Layout from "../components/Layout";
 import ProductCard from "../components/ProductCard";
 import data from "../data/products.json";
 
+// 🧼 Banner Images
 const BANNERS = [
   {
     img: "/banners/banner-green-tea.jpg",
+    alt: "Alice Green Tea Handmade Soap",
   },
   {
     img: "/banners/banner-saffron.jpg",
+    alt: "Alice Saffron & Turmeric Glow Soap",
   },
   {
     img: "/banners/banner-charcoal.jpg",
+    alt: "Alice Charcoal & Mint Detox Soap",
   },
 ];
 
 function HeroSlider() {
   const [i, setI] = useState(0);
 
+  // Auto-slide every 6 seconds (no fade)
   useEffect(() => {
-    // Change banner every 6 seconds (no fade effect)
     const t = setInterval(() => setI((v) => (v + 1) % BANNERS.length), 6000);
     return () => clearInterval(t);
   }, []);
@@ -27,16 +31,20 @@ function HeroSlider() {
   const b = BANNERS[i];
 
   return (
-    <div className="relative h-[500px] md:h-[600px] rounded-3xl overflow-hidden shadow-xl">
-      {/* Banner image */}
+    <div className="relative w-full overflow-hidden rounded-3xl shadow-xl">
+      {/* Banner Image */}
       <img
         src={b.img}
-        alt="Alice Artisanal Soap Banner"
-        className="w-full h-full object-cover"
+        alt={b.alt}
+        className="w-full object-cover"
+        style={{
+          aspectRatio: "33.87 / 13.55", // exact banner ratio (matches your design)
+          height: "auto",
+        }}
       />
 
-      {/* CTA Buttons only */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-wrap gap-4 z-10">
+      {/* CTA Buttons - Left Aligned */}
+      <div className="absolute left-10 md:left-20 bottom-10 flex flex-col sm:flex-row gap-4 z-10">
         <a
           href="/shop"
           className="bg-green-700 hover:bg-green-800 text-white px-6 py-3 rounded-lg font-semibold shadow-md transition-all"
@@ -51,7 +59,7 @@ function HeroSlider() {
         </a>
       </div>
 
-      {/* Dots for slide indicator */}
+      {/* Slide Dots */}
       <div className="absolute right-6 bottom-6 flex gap-2 z-20">
         {BANNERS.map((_, idx) => (
           <button
@@ -73,12 +81,12 @@ export default function Home() {
 
   return (
     <Layout>
-      {/* Hero Section */}
+      {/* 🏠 Hero Section */}
       <section className="container pt-6">
         <HeroSlider />
       </section>
 
-      {/* Featured Soaps */}
+      {/* 🧼 Featured Soaps */}
       <section className="section bg-brand-beige">
         <div className="container">
           <h2 className="h2 text-center mb-8">Featured Soaps</h2>
@@ -90,7 +98,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Lifestyle Banner */}
+      {/* 🌿 Lifestyle Banner */}
       <section className="section">
         <div className="container">
           <div className="relative h-56 md:h-64 rounded-2xl overflow-hidden">
@@ -109,7 +117,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Featured Bases */}
+      {/* 🧴 Featured Soap Bases */}
       <section className="section bg-white">
         <div className="container">
           <h2 className="h2 text-center mb-8">Featured Soap Bases</h2>
@@ -121,11 +129,12 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer Info Strip */}
+      {/* 🌎 Footer Info Strip */}
       <section className="section">
         <div className="container">
           <div className="rounded-2xl border p-6 text-center bg-gradient-to-r from-brand/10 to-brand/5 text-brand font-semibold">
-            🌱 Eco-Friendly &nbsp;|&nbsp; 🧴 Cruelty-Free &nbsp;|&nbsp; 🧼 Paraben-Free &nbsp;|&nbsp; 🇮🇳 Made in India
+            🌱 Eco-Friendly &nbsp;|&nbsp; 🧴 Cruelty-Free &nbsp;|&nbsp; 🧼
+            Paraben-Free &nbsp;|&nbsp; 🇮🇳 Made in India
           </div>
         </div>
       </section>
