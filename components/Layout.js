@@ -1,48 +1,98 @@
 import Link from "next/link";
-export default function Layout({ children }){
+
+export default function Layout({ children }) {
   return (
-    <div className="min-h-screen flex flex-col">
-      <header className="header">
-        <div className="container py-3 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-3">
-            <img src="/logo.png" alt="Alice Artisanal Soap" className="h-10 w-auto" />
-            <div className="font-serif text-xl text-brand">Alice <span className="font-sans text-gray-800">Artisanal</span></div>
+    <div className="min-h-screen flex flex-col bg-white text-gray-800">
+      {/* ---------------- HEADER ---------------- */}
+      <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md shadow-sm">
+        <div className="container mx-auto py-4 flex items-center justify-between px-4 md:px-0">
+          {/* Hellomart Logo */}
+          <Link href="/" className="flex items-center">
+            <img
+              src="/logo-hellomart.png"
+              alt="Hellomart"
+              className="h-12 md:h-14 w-auto object-contain"
+            />
           </Link>
-          <nav className="flex items-center gap-5 text-sm">
-            <Link className="hover:text-brand" href="/">Home</Link>
-            <Link className="hover:text-brand" href="/shop">Shop</Link>
-            <Link className="hover:text-brand" href="/about">About</Link>
-            <Link className="hover:text-brand" href="/gallery">Gallery</Link>
-            <Link className="hover:text-brand" href="/contact">Contact</Link>
+
+          {/* Navigation */}
+          <nav className="hidden md:flex items-center gap-8 text-sm font-medium">
+            <Link className="hover:text-green-700 transition" href="/">
+              Home
+            </Link>
+            <Link className="hover:text-green-700 transition" href="/shop">
+              Shop
+            </Link>
+            <Link className="hover:text-green-700 transition" href="/about">
+              About
+            </Link>
+            <Link className="hover:text-green-700 transition" href="/gallery">
+              Gallery
+            </Link>
+            <Link className="hover:text-green-700 transition" href="/contact">
+              Contact
+            </Link>
           </nav>
         </div>
       </header>
+
+      {/* ---------------- MAIN CONTENT ---------------- */}
       <main className="flex-1">{children}</main>
-      <footer className="border-t">
-        <div className="container py-10 grid md:grid-cols-3 gap-8">
+
+      {/* ---------------- FOOTER ---------------- */}
+      <footer className="border-t bg-gray-50 mt-10">
+        <div className="container mx-auto py-10 px-4 md:px-0 grid md:grid-cols-3 gap-8 text-sm">
+          {/* Brand */}
           <div>
-            <div className="font-serif text-lg text-brand">Alice Artisanal Soap</div>
-            <p className="subtle mt-2">Handmade in India • Gentle on skin, kind to Earth.</p>
+            <img
+              src="/logo-hellomart.png"
+              alt="Hellomart Logo"
+              className="h-10 w-auto mb-3"
+            />
+            <p className="text-gray-600">
+              Premium handcrafted soaps & bases — inspired by nature, made with
+              love.
+            </p>
           </div>
+
+          {/* Quick Links */}
           <div>
-            <div className="font-medium mb-2">Quick Links</div>
-            <ul className="text-sm subtle space-y-1">
-              <li><Link className="hover:text-brand" href="/shop">Shop</Link></li>
-              <li><Link className="hover:text-brand" href="/about">About</Link></li>
-              <li><Link className="hover:text-brand" href="/gallery">Gallery</Link></li>
+            <div className="font-semibold mb-2 text-gray-700">Quick Links</div>
+            <ul className="space-y-1 text-gray-600">
+              <li>
+                <Link className="hover:text-green-700" href="/shop">
+                  Shop
+                </Link>
+              </li>
+              <li>
+                <Link className="hover:text-green-700" href="/about">
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link className="hover:text-green-700" href="/gallery">
+                  Gallery
+                </Link>
+              </li>
             </ul>
           </div>
+
+          {/* Contact */}
           <div>
-            <div className="font-medium mb-2">Contact</div>
-            <ul className="text-sm subtle space-y-1">
-              <li>Email: hello@aliceartisanal.com</li>
+            <div className="font-semibold mb-2 text-gray-700">Contact</div>
+            <ul className="space-y-1 text-gray-600">
+              <li>Email: hello@hellomart.in</li>
               <li>Phone: +91-90000 00000</li>
               <li>Gwalior, Madhya Pradesh</li>
             </ul>
           </div>
         </div>
-        <div className="text-center text-xs subtle pb-6">© {new Date().getFullYear()} Alice Artisanal Soap</div>
+
+        {/* Copyright */}
+        <div className="text-center text-xs text-gray-500 pb-6 border-t pt-4">
+          © {new Date().getFullYear()} Hellomart. All Rights Reserved.
+        </div>
       </footer>
     </div>
-  )
+  );
 }
