@@ -38,26 +38,10 @@ function HeroSlider() {
         alt={b.alt}
         className="w-full object-cover"
         style={{
-          aspectRatio: "33.87 / 13.55", // exact banner ratio (matches your design)
+          aspectRatio: "33.87 / 13.55", // exact banner ratio
           height: "auto",
         }}
       />
-
-      {/* CTA Buttons - Left Aligned */}
-      <div className="absolute left-10 md:left-20 bottom-10 flex flex-col sm:flex-row gap-4 z-10">
-        <a
-          href="/shop"
-          className="bg-green-700 hover:bg-green-800 text-white px-6 py-3 rounded-lg font-semibold shadow-md transition-all"
-        >
-          Shop Now
-        </a>
-        <a
-          href="/shop#bases"
-          className="border border-white text-white hover:bg-white/10 px-6 py-3 rounded-lg font-semibold transition-all"
-        >
-          Explore Soap Bases
-        </a>
-      </div>
 
       {/* Slide Dots */}
       <div className="absolute right-6 bottom-6 flex gap-2 z-20">
