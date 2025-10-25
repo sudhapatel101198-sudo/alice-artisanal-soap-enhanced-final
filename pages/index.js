@@ -87,7 +87,7 @@ export default function Home() {
         <div className="container">
           <div className="relative h-56 md:h-64 rounded-2xl overflow-hidden">
             <img
-              src="/WhatsApp_Image_2025-10-21_at_6.30.21_PM.jpeg"
+              src="/turmeric"
               alt="Lifestyle"
               className="w-full h-full object-cover"
             />
