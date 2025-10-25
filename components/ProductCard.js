@@ -58,7 +58,7 @@ export default function ProductCard({ item }) {
 
             {/* WhatsApp Button */}
             <a
-              href={`https://wa.me/917441199199?text=${encodeURIComponent(
+              href={`https://wa.me/919000000000?text=${encodeURIComponent(
                 `Hi Hellomart! I'm interested in ${item.name} (₹${item.price}).`
               )}`}
               target="_blank"
