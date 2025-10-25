@@ -84,7 +84,7 @@
       "price": 125,
       "mrp": 249,
       "blurb": "Handmade glycerine bar with natural botanicals.",
-      "image": "/rose-soap-new.jpg",
+      "image": "/rose-soap-new.jpeg",
       "tag": "Handmade",
       "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
     }
@@ -97,7 +97,7 @@
       "price": 220,
       "mrp": 450,
       "blurb": "A deep-cleansing base enriched with activated charcoal.",
-      "image": "/charcoal.jpg",
+      "image": "/charcoal.jpeg",
       "tag": "Soap Base",
       "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
     },
@@ -108,7 +108,7 @@
       "price": 220,
       "mrp": 450,
       "blurb": "Creamy base infused with goat milk for hydration.",
-      "image": "/goatmilk.jpg",
+      "image": "/goatmilk.jpeg",
       "tag": "Soap Base",
       "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
     },
@@ -119,7 +119,7 @@
       "price": 220,
       "mrp": 450,
       "blurb": "Infused with shea butter to deeply nourish and soften skin.",
-      "image": "/chiabutter.jpg",
+      "image": "/chiabutter.jpeg",
       "tag": "Soap Base",
       "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
     },
@@ -130,7 +130,7 @@
       "price": 220,
       "mrp": 450,
       "blurb": "Vibrant citrus base with brightening orange extracts.",
-      "image": "/orange.jpg",
+      "image": "/orange.jpeg",
       "tag": "Soap Base",
       "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
     },
@@ -141,7 +141,7 @@
       "price": 220,
       "mrp": 450,
       "blurb": "Infused with real green tea for refreshed, purified skin.",
-      "image": "/greentea.jpg",
+      "image": "/greentea.jpeg",
       "tag": "Soap Base",
       "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
     },
@@ -152,7 +152,7 @@
       "price": 220,
       "mrp": 450,
       "blurb": "Fruity base that tones and rejuvenates skin.",
-      "image": "/greenapple.jpg",
+      "image": "/greenapple.jpeg",
       "tag": "Soap Base",
       "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
     },
@@ -163,7 +163,7 @@
       "price": 220,
       "mrp": 450,
       "blurb": "Relaxing lavender base that soothes and refreshes.",
-      "image": "/lavender.jpg",
+      "image": "/lavender.jpeg",
       "tag": "Soap Base",
       "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
     },
@@ -174,7 +174,7 @@
       "price": 220,
       "mrp": 450,
       "blurb": "Ayurvedic neem & tulsi base that purifies skin.",
-      "image": "/neemtulsi.jpg",
+      "image": "/neemtulsi.jpeg",
       "tag": "Soap Base",
       "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
     },
@@ -185,7 +185,7 @@
       "price": 220,
       "mrp": 450,
       "blurb": "Papaya base for natural glow and radiance.",
-      "image": "/pinkpapaya.jpg",
+      "image": "/pinkpapaya.jpeg",
       "tag": "Soap Base",
       "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
     },
@@ -196,7 +196,7 @@
       "price": 220,
       "mrp": 450,
       "blurb": "Rich in papain enzymes for soft, glowing skin.",
-      "image": "/papaya.jpg",
+      "image": "/papaya.jpeg",
       "tag": "Soap Base",
       "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
     },
@@ -207,7 +207,7 @@
       "price": 220,
       "mrp": 450,
       "blurb": "Cooling aloe vera base for gentle cleansing.",
-      "image": "/aleovera.jpg",
+      "image": "/aleovera.jpeg",
       "tag": "Soap Base",
       "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
     },
@@ -218,7 +218,7 @@
       "price": 220,
       "mrp": 450,
       "blurb": "Soothing sandalwood base with calming aroma.",
-      "image": "/chandan.jpg",
+      "image": "/chandan.jpeg",
       "tag": "Soap Base",
       "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
     },
@@ -229,7 +229,7 @@
       "price": 220,
       "mrp": 450,
       "blurb": "Rich chocolate base with antioxidants.",
-      "image": "/chocolate.jpg",
+      "image": "/chocolate.jpeg",
       "tag": "Soap Base",
       "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
     },
@@ -240,7 +240,7 @@
       "price": 220,
       "mrp": 450,
       "blurb": "Exfoliating coffee base that renews skin.",
-      "image": "/coffee.jpg",
+      "image": "/coffee.jpeg",
       "tag": "Soap Base",
       "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
     },
@@ -251,7 +251,7 @@
       "price": 220,
       "mrp": 450,
       "blurb": "Refreshing cucumber base for all-day freshness.",
-      "image": "/cucumber.jpg",
+      "image": "/cucumber.jpeg",
       "tag": "Soap Base",
       "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
     },
@@ -262,7 +262,7 @@
       "price": 220,
       "mrp": 450,
       "blurb": "Detoxifying multani mitti base for oil control.",
-      "image": "/multanimitti.jpg",
+      "image": "/multanimitti.jpeg",
       "tag": "Soap Base",
       "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
     },
@@ -273,7 +273,7 @@
       "price": 220,
       "mrp": 450,
       "blurb": "Cool mint base that refreshes and energizes skin.",
-      "image": "/mint.jpg",
+      "image": "/mint.jpeg",
       "tag": "Soap Base",
       "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
     },
@@ -284,7 +284,7 @@
       "price": 220,
       "mrp": 450,
       "blurb": "Red wine base rich in antioxidants for glowing skin.",
-      "image": "/redwine.jpg",
+      "image": "/redwine.jpeg",
       "tag": "Soap Base",
       "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
     }
