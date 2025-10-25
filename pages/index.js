@@ -87,7 +87,7 @@ export default function Home() {
         <div className="container">
           <div className="relative h-56 md:h-64 rounded-2xl overflow-hidden">
             <img
-              src="/turmeric"
+              src="/turmeric.jpeg"
               alt="Lifestyle"
               className="w-full h-full object-cover"
             />
