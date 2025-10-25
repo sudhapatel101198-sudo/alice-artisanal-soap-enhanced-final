@@ -134,137 +134,185 @@
     }
   ],
   "bases": [
-    {
-      "id": 101,
-      "type": "base",
-      "name": "Alice Soap Base #1",
-      "price": 599,
-      "mrp": 699,
-      "blurb": "Premium transparent glycerine soap base for crafting.",
-      "image": "/WhatsApp_Image_2025-10-21_at_6.30.18_PM_(2).jpeg",
-      "tag": "Soap Base",
-      "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&product=B0FMNXH6KN&me=A7LB0BWELQTV3"
-    },
-    {
-      "id": 102,
-      "type": "base",
-      "name": "Alice Soap Base #2",
-      "price": 599,
-      "mrp": 699,
-      "blurb": "Premium transparent glycerine soap base for crafting.",
-      "image": "/WhatsApp_Image_2025-10-21_at_6.30.22_PM_(1).jpeg",
-      "tag": "Soap Base",
-      "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&product=B0FMNXH6KN&me=A7LB0BWELQTV3"
-    },
-    {
-      "id": 103,
-      "type": "base",
-      "name": "Alice Soap Base #3",
-      "price": 599,
-      "mrp": 699,
-      "blurb": "Premium transparent glycerine soap base for crafting.",
-      "image": "/WhatsApp_Image_2025-10-21_at_6.30.18_PM_(1).jpeg",
-      "tag": "Soap Base",
-      "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&product=B0FMNXH6KN&me=A7LB0BWELQTV3"
-    },
-    {
-      "id": 104,
-      "type": "base",
-      "name": "Alice Soap Base #4",
-      "price": 599,
-      "mrp": 699,
-      "blurb": "Premium transparent glycerine soap base for crafting.",
-      "image": "/WhatsApp_Image_2025-10-21_at_6.30.20_PM.jpeg",
-      "tag": "Soap Base",
-      "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&product=B0FMNXH6KN&me=A7LB0BWELQTV3"
-    },
-    {
-      "id": 105,
-      "type": "base",
-      "name": "Alice Soap Base #5",
-      "price": 599,
-      "mrp": 699,
-      "blurb": "Premium transparent glycerine soap base for crafting.",
-      "image": "/WhatsApp_Image_2025-10-21_at_6.30.18_PM.jpeg",
-      "tag": "Soap Base",
-      "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&product=B0FMNXH6KN&me=A7LB0BWELQTV3"
-    },
-    {
-      "id": 106,
-      "type": "base",
-      "name": "Alice Soap Base #6",
-      "price": 599,
-      "mrp": 699,
-      "blurb": "Premium transparent glycerine soap base for crafting.",
-      "image": "/WhatsApp_Image_2025-10-21_at_6.30.22_PM.jpeg",
-      "tag": "Soap Base",
-      "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&product=B0FMNXH6KN&me=A7LB0BWELQTV3"
-    },
-    {
-      "id": 107,
-      "type": "base",
-      "name": "Alice Soap Base #7",
-      "price": 599,
-      "mrp": 699,
-      "blurb": "Premium transparent glycerine soap base for crafting.",
-      "image": "/placeholder_1.jpg",
-      "tag": "Soap Base",
-      "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&product=B0FMNXH6KN&me=A7LB0BWELQTV3"
-    },
-    {
-      "id": 108,
-      "type": "base",
-      "name": "Alice Soap Base #8",
-      "price": 599,
-      "mrp": 699,
-      "blurb": "Premium transparent glycerine soap base for crafting.",
-      "image": "/placeholder_2.jpg",
-      "tag": "Soap Base",
-      "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&product=B0FMNXH6KN&me=A7LB0BWELQTV3"
-    },
-    {
-      "id": 109,
-      "type": "base",
-      "name": "Alice Soap Base #9",
-      "price": 599,
-      "mrp": 699,
-      "blurb": "Premium transparent glycerine soap base for crafting.",
-      "image": "/placeholder_3.jpg",
-      "tag": "Soap Base",
-      "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&product=B0FMNXH6KN&me=A7LB0BWELQTV3"
-    },
-    {
-      "id": 110,
-      "type": "base",
-      "name": "Alice Soap Base #10",
-      "price": 599,
-      "mrp": 699,
-      "blurb": "Premium transparent glycerine soap base for crafting.",
-      "image": "/WhatsApp_Image_2025-10-21_at_6.30.21_PM.jpeg",
-      "tag": "Soap Base",
-      "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&product=B0FMNXH6KN&me=A7LB0BWELQTV3"
-    },
-    {
-      "id": 111,
-      "type": "base",
-      "name": "Alice Soap Base #11",
-      "price": 599,
-      "mrp": 699,
-      "blurb": "Premium transparent glycerine soap base for crafting.",
-      "image": "/WhatsApp_Image_2025-10-21_at_6.30.19_PM.jpeg",
-      "tag": "Soap Base",
-      "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&product=B0FMNXH6KN&me=A7LB0BWELQTV3"
-    },
-    {
-      "id": 112,
-      "type": "base",
-      "name": "Alice Soap Base #12",
-      "price": 599,
-      "mrp": 699,
-      "blurb": "Premium transparent glycerine soap base for crafting.",
-      "image": "/WhatsApp_Image_2025-10-21_at_6.30.21_PM_(1).jpeg",
-      "tag": "Soap Base",
-      "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&product=B0FMNXH6KN&me=A7LB0BWELQTV3"
-    }
-  ]
-}
+  {
+    "id": 101,
+    "type": "base",
+    "name": "Alice Charcoal Detox Soap Base",
+    "price": 699,
+    "description": "A deep-cleansing base enriched with activated charcoal. Gently removes dirt and toxins for a fresh, purified glow. Ideal for oily or acne-prone skin.",
+    "image": "/charcoal.jpg",
+    "tag": "Soap Base",
+    "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
+  },
+  {
+    "id": 102,
+    "type": "base",
+    "name": "Alice Goat Milk Nourishing Soap Base",
+    "price": 699,
+    "description": "A creamy, luxurious base infused with goat milk for rich hydration. Perfect for dry and sensitive skin, leaving it soft, smooth, and radiant.",
+    "image": "/goatmilk.jpg",
+    "tag": "Soap Base",
+    "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
+  },
+  {
+    "id": 103,
+    "type": "base",
+    "name": "Alice Shea Butter Moisturizing Soap Base",
+    "price": 699,
+    "description": "Infused with shea butter to deeply moisturize and nourish the skin. Ideal for creating creamy, rich, and softening handmade soaps.",
+    "image": "/chiabutter.jpg",
+    "tag": "Soap Base",
+    "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
+  },
+  {
+    "id": 104,
+    "type": "base",
+    "name": "Alice Orange Glow Soap Base",
+    "price": 649,
+    "description": "A vibrant citrus base with the goodness of orange extracts. Helps brighten dull skin and adds a refreshing aroma to every wash.",
+    "image": "/orange.jpg",
+    "tag": "Soap Base",
+    "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
+  },
+  {
+    "id": 105,
+    "type": "base",
+    "name": "Alice Green Tea Antioxidant Soap Base",
+    "price": 649,
+    "description": "Infused with real green tea extracts to refresh and purify the skin. A natural antioxidant base perfect for gentle daily cleansing.",
+    "image": "/greentea.jpg",
+    "tag": "Soap Base",
+    "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
+  },
+  {
+    "id": 106,
+    "type": "base",
+    "name": "Alice Green Apple Refreshing Soap Base",
+    "price": 649,
+    "description": "A fruity green apple base that rejuvenates and tones the skin. Creates a crisp and energizing cleansing experience.",
+    "image": "/greenapple.jpg",
+    "tag": "Soap Base",
+    "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
+  },
+  {
+    "id": 107,
+    "type": "base",
+    "name": "Alice Lavender Calm Soap Base",
+    "price": 699,
+    "description": "Enriched with calming lavender essential oils. Relaxes the senses and soothes the skin with every wash.",
+    "image": "/lavender.jpg",
+    "tag": "Soap Base",
+    "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
+  },
+  {
+    "id": 108,
+    "type": "base",
+    "name": "Alice Neem Tulsi Herbal Soap Base",
+    "price": 699,
+    "description": "A traditional Ayurvedic blend of neem and tulsi. Purifies and protects the skin from impurities and pollution.",
+    "image": "/neemtulsi.jpg",
+    "tag": "Soap Base",
+    "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
+  },
+  {
+    "id": 109,
+    "type": "base",
+    "name": "Alice Pink Papaya Brightening Soap Base",
+    "price": 649,
+    "description": "Made with papaya extracts for naturally glowing skin. Helps reduce pigmentation and enhances your natural radiance.",
+    "image": "/pinkpapaya.jpg",
+    "tag": "Soap Base",
+    "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
+  },
+  {
+    "id": 110,
+    "type": "base",
+    "name": "Alice Papaya Enzyme Soap Base",
+    "price": 649,
+    "description": "Rich in papain enzymes that help exfoliate dead skin cells. Creates bright, refreshed, and clear skin.",
+    "image": "/papaya.jpg",
+    "tag": "Soap Base",
+    "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
+  },
+  {
+    "id": 111,
+    "type": "base",
+    "name": "Alice Aloe Vera Hydrating Soap Base",
+    "price": 599,
+    "description": "Infused with aloe vera for cooling and hydration. Ideal for all skin types, especially for daily gentle cleansing.",
+    "image": "/aleovera.jpg",
+    "tag": "Soap Base",
+    "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
+  },
+  {
+    "id": 112,
+    "type": "base",
+    "name": "Alice Chandan Sandalwood Soap Base",
+    "price": 699,
+    "description": "Infused with pure sandalwood oil for a soothing fragrance and radiant skin. A perfect base for premium aromatic soaps.",
+    "image": "/chandan.jpg",
+    "tag": "Soap Base",
+    "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
+  },
+  {
+    "id": 113,
+    "type": "base",
+    "name": "Alice Chocolate Indulgence Soap Base",
+    "price": 699,
+    "description": "A rich chocolate-infused base full of antioxidants. Moisturizes the skin and leaves it smelling divine.",
+    "image": "/chocolate.jpg",
+    "tag": "Soap Base",
+    "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
+  },
+  {
+    "id": 114,
+    "type": "base",
+    "name": "Alice Coffee Scrub Soap Base",
+    "price": 699,
+    "description": "Enriched with coffee granules to exfoliate and awaken dull skin. Boosts circulation and improves texture naturally.",
+    "image": "/coffee.jpg",
+    "tag": "Soap Base",
+    "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
+  },
+  {
+    "id": 115,
+    "type": "base",
+    "name": "Alice Cucumber Cooling Soap Base",
+    "price": 599,
+    "description": "A refreshing cucumber-based soap base that soothes and hydrates. Perfect for hot climates and all-day freshness.",
+    "image": "/cucumber.jpg",
+    "tag": "Soap Base",
+    "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
+  },
+  {
+    "id": 116,
+    "type": "base",
+    "name": "Alice Multani Mitti Clay Soap Base",
+    "price": 699,
+    "description": "Infused with natural multani mitti for detox and oil control. Gives the skin a soft, matte glow after every wash.",
+    "image": "/multanimitti.jpg",
+    "tag": "Soap Base",
+    "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
+  },
+  {
+    "id": 117,
+    "type": "base",
+    "name": "Alice Mint Fresh Soap Base",
+    "price": 599,
+    "description": "A cool mint-infused base that refreshes the skin and invigorates the senses. Ideal for summer soap bars.",
+    "image": "/mint.jpg",
+    "tag": "Soap Base",
+    "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
+  },
+  {
+    "id": 118,
+    "type": "base",
+    "name": "Alice Red Wine Luxury Soap Base",
+    "price": 749,
+    "description": "Infused with the antioxidants of red wine, this base enhances skin elasticity and gives a youthful glow. Ideal for anti-aging and radiant skin bars.",
+    "image": "/redwine.jpg",
+    "tag": "Soap Base",
+    "amazon": "https://www.amazon.in/l/27943762031?ie=UTF8&marketplaceID=A21TJRUUN4KGV&me=A7LB0BWELQTV3"
+  }
+]
+
