@@ -81,7 +81,7 @@ export default function Layout({ children }) {
           <div>
             <div className="font-semibold mb-2 text-gray-700">Contact</div>
             <ul className="space-y-1 text-gray-600">
-              <li>Email: hellomart.commerce@gmail.com</li>
+              <li>Email: hellomart.ecommerce@gmail.com</li>
               <li>Whatsapp: +91-74411 99199 </li>
               <li>Mumbai, Maharashtra</li>
             </ul>
