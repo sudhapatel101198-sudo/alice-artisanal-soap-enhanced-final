@@ -16,7 +16,7 @@ export default function Contact(){
               <a href="https://wa.me/917441199199" target="_blank" rel="noreferrer" className="btn btn-solid">Chat on WhatsApp</a>
             </div>
           </div>
-          <iframe className="w-full h-72 rounded-2xl border" src="https://www.google.com/maps/place/Mumbai,+Maharashtra/@19.0825555,72.8789412,11z/data=!3m1!4b1!4m6!3m5!1s0x3be7c6306644edc1:0x5da4ed8f8d648c69!8m2!3d18.9581934!4d72.8320729!16zL20vMDR2bXA?entry=ttu&g_ep=EgoyMDI1MTAyMi4wIKXMDSoASAFQAw%3D%3D"></iframe>
+          <iframe className="w-full h-72 rounded-2xl border" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15084.734295590457!2d72.8776556!3d19.0760905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c630eb1e2b63%3A0x2a29a9c9a09c7f5e!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1698756781234!5m2!1sen!2sin"></iframe>
         </div>
       </section>
     </Layout>
