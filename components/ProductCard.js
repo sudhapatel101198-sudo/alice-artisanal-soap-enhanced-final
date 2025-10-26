@@ -4,7 +4,8 @@ import Image from "next/image";
 export default function ProductCard({ item }) {
   return (
     <Link href={`/product/${item.id}`} passHref>
-      <div className="bg-white rounded-2xl shadow-sm overflow-hidden border border-zinc-100 hover:shadow-md transition-all duration-300 cursor-pointer flex flex-col justify-between">
+      <div className="flex flex-col bg-white rounded-2xl shadow-sm overflow-hidden border border-zinc-100 hover:shadow-md transition-all duration-300 cursor-pointer h-full">
+        
         {/* Product Image */}
         <div className="relative">
           <Image
@@ -20,13 +21,13 @@ export default function ProductCard({ item }) {
         </div>
 
         {/* Product Info */}
-        <div className="p-4 flex flex-col justify-between flex-1">
-          {/* Name */}
+        <div className="p-4 flex flex-col flex-grow">
+          {/* Product Name */}
           <h3 className="text-lg font-semibold text-zinc-800 leading-snug break-words line-clamp-2">
             {item.name}
           </h3>
 
-          {/* Description */}
+          {/* Product Description */}
           <p className="text-sm text-zinc-600 mt-1 line-clamp-2 min-h-[36px]">
             {item.blurb}
           </p>
@@ -44,14 +45,14 @@ export default function ProductCard({ item }) {
           </div>
 
           {/* Buttons */}
-          <div className="mt-4 flex flex-col sm:flex-row gap-3">
+          <div className="mt-auto flex flex-col sm:flex-row gap-3">
             {/* Amazon Button */}
             <a
               href={item.amazon}
               target="_blank"
               rel="noreferrer"
+              onClick={(e) => e.stopPropagation()} // prevent redirect when clicking button
               className="flex-1 text-center bg-green-700 text-white py-2 rounded-lg font-medium hover:bg-green-800 transition-colors text-sm"
-              onClick={(e) => e.stopPropagation()} // prevent navigation when clicking button
             >
               Amazon
             </a>
@@ -63,8 +64,8 @@ export default function ProductCard({ item }) {
               )}`}
               target="_blank"
               rel="noreferrer"
+              onClick={(e) => e.stopPropagation()} // prevent redirect when clicking button
               className="flex-1 text-center border border-green-700 text-green-700 py-2 rounded-lg font-medium hover:bg-green-50 transition-colors text-sm"
-              onClick={(e) => e.stopPropagation()} // prevent navigation when clicking button
             >
               WhatsApp
             </a>
