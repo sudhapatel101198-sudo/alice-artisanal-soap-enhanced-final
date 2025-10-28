@@ -54,7 +54,7 @@ export default function ProductCard({ item }) {
               onClick={(e) => e.stopPropagation()} // prevent redirect when clicking button
               className="flex-1 text-center bg-green-700 text-white py-2 rounded-lg font-medium hover:bg-green-800 transition-colors text-sm"
             >
-              Amazon
+              Buy Now
             </a>
 
             {/* WhatsApp Button */}
